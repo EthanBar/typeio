@@ -16,6 +16,11 @@ export class Player {
         this._position = new Vector2(0, 0);
     }
 
+    public die() {
+        this._position = new Vector2(0, 0);
+        this.size = 20;
+    }
+
     public addSize(amount: number) {
         this.size += amount;
     }

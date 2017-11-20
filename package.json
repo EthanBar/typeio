@@ -4,7 +4,8 @@
   "description": "A test-driven typescript agar.io clone",
   "main": "app.js",
   "scripts": {
-    "test": "mocha tests --recursive --watch"
+    "test": "mocha tests --recursive --watch",
+    "start": "node app.js"
   },
   "author": "Ethan Barker",
   "license": "ISC",
@@ -14,5 +15,10 @@
     "mocha": "^4.0.1",
     "typescript": "^2.6.1",
     "typescript-eslint-parser": "^9.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.4"
   }
 }
