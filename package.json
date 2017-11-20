@@ -1,0 +1,18 @@
+{
+  "name": "typeio",
+  "version": "1.0.0",
+  "description": "A test-driven typescript agar.io clone",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha tests --recursive --watch"
+  },
+  "author": "Ethan Barker",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.11.0",
+    "mocha": "^4.0.1",
+    "typescript": "^2.6.1",
+    "typescript-eslint-parser": "^9.0.0"
+  }
+}
